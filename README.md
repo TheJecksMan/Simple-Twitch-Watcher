@@ -56,7 +56,7 @@ I want to present you my tool for automatic collection of twitch drops. But it's
 
 - `show_browser` - turns on browser display.
 
-- `timeout_load_page` - 
+- `timeout_load_page` - setting timeout for page load, change to larger value if you are having problems with it.
 
 - `base_url` - base path to twitch (no need to change!).
 
@@ -66,7 +66,7 @@ I want to present you my tool for automatic collection of twitch drops. But it's
 
 - `auth_token` - token from your cookie.
 
-- `time_view_stream` - stream view time. Directly affects the frequency of checking rewards.
+- `time_view_stream` - stream view time in minutes. Directly affects the frequency of checking rewards.
 
 ## Disclaimer
 
