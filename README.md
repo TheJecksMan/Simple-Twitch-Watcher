@@ -1,6 +1,6 @@
-# Twitch-Watcher
+# Simple-Twitch-Watcher
 
-I want to present you my tool for automatic collection of twitch drops. But it's not written in my main programming language, so there might be some bugs.
+I would like to present to you my very simple tool for collecting twitch drops automatically. But it's not written in my main programming language, so there might be some bugs.
 
 ## Features
 
