@@ -1,0 +1,12 @@
+{
+    "browser_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "browser_show": false,
+    "timeout_load_page": 0, 
+
+    "base_url": "https://www.twitch.tv/",
+    "game_urn": "directory/game/Rust",
+    "filter_streams": "?sort=VIEWER_COUNT&tl=c2542d6d-cd10-4532-919b-3d19f30a768b",
+
+    "auth_token": "",
+    "time_view_stream": 10
+}

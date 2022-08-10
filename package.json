@@ -1,0 +1,14 @@
+{
+  "name": "advanced-twitch-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheJecksMan",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^16.1.0"
+  }
+}
