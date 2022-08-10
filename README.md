@@ -1,16 +1,38 @@
 # Twitch-Watcher
 
+I want to present you my tool for automatic collection of twitch drops. But it's not written in my main programming language, so there might be some bugs.
+
 ## Features
 
 - 💎 Automatic collection of twitch drops!
 - 🔒 Does not require your login and password, everything is safe
 - 📱 Auto detect OS
-- 😴 Mute stream
+- 😴 Auto Mute stream
 - 🎥 Automatically lowest stream quality (160p)
 - 😎 Custom configuration
 - ⌚ Viewing time setting
 - 👻 Easy to install
 
+## How to install?
+
+**Windows**
+1. Download or clone the repository.
+2. [Install](https://nodejs.org/en/) Node.js.
+3. Install Chromuim, also works with Chrome (standard path is `C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe`).
+4. Specify the path to Chrome or Chromuim.
+5. Get an auth-token via a cookie.
+6. Go to the folder with the repository and in the terminal write: `npm install`.
+7. To run, write `node main.js` in the terminal.
+
+
+**Linux**
+1. Download or clone the repository.
+2. [Install](https://nodejs.org/en/) Node.js.
+3. [Install](https://losst.ru/ustanovka-chromium-ubuntu-16-04) Chromuim, also works with Chrome (default path is `/snap/bin/chromium`) 
+4. Get the path `whereis chromium` to it.
+5. Get an auth-token via a cookie.
+6. Go to the folder with the repository and in the terminal write: `npm install`
+7. To run, write in the terminal `node main.js`
 
 ## Config description
 
@@ -45,7 +67,8 @@
 - `auth_token` - token from your cookie.
 
 - `time_view_stream` - stream view time. Directly affects the frequency of checking rewards.
+
 ## Disclaimer
 
-This code is for educational and research purposes only. Do not attempt to violate the law with anything contained here.
-I will not be responsible for any illegal actions. Reproduction and copy is authorised, provided the source is acknowledged.
+This code is for educational and research purposes only. Do not attempt to break the law with anything contained here.
+I will not be held responsible for any illegal activities. Reproduction and copying is described in the license in this repository
