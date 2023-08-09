@@ -4,7 +4,7 @@ const tool = require("./modules/tool.js");
 
 const config = require("./config.json");
 
-const chanel_link = '//a[@data-test-selector="TitleAndChannel"]';
+const chanel_link = '//a[@tabindex="-1" and contains(@class, "tw-link")]';
 const live_time = '//span[@class="live-time"]';
 const mute_button = '//button[@data-a-target="player-mute-unmute-button"]';
 const nsfw_button = '//button[@data-a-target="player-overlay-mature-accept"]';
@@ -20,7 +20,7 @@ async function main() {
     console.clear();
     console.log(
         "▀█▀ █░█░█ █ ▀█▀ █▀▀ █░█   █░█░█ ▄▀█ ▀█▀ █▀▀ █░█ █▀▀ █▀█\n" +
-        "░█░ ▀▄▀▄▀ █ ░█░ █▄▄ █▀█   ▀▄▀▄▀ █▀█ ░█░ █▄▄ █▀█ ██▄ █▀▄ v.1.1.0\n"
+        "░█░ ▀▄▀▄▀ █ ░█░ █▄▄ █▀█   ▀▄▀▄▀ █▀█ ░█░ █▄▄ █▀█ ██▄ █▀▄ v.1.2.0\n"
     );
 
     let { browser, page } = await create_browser();
