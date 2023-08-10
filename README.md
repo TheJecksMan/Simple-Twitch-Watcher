@@ -4,7 +4,6 @@ I would like to present to you my very simple tool for collecting twitch drops a
 
 ## Features
 
-- 💎 Automatic collection of twitch drops!
 - 🔒 Does not require your login and password, everything is safe
 - 📱 Auto detect OS
 - 😴 Auto Mute stream
